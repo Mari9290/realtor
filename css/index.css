@@ -1,0 +1,161 @@
+@import url(var.css);
+
+
+@font-face {
+    font-family: Rubik;
+    src: local(Rubik-Regular), url(../fonts/Rubik-Regular.woff2) format("woff2");
+    src: url(../fonts/Rubik-Regular.woff) format("woff");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: local(Rubik-Medium), url(../fonts/Rubik-Medium.woff2) format("woff2");
+    src: url(../fonts/Rubik-Medium.woff) format("woff");
+    font-weight: 500;
+    font-display: swap;
+}
+
+
+html {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: var(--color-white, #FCFCFC);
+    position: relative;
+    overflow-x: hidden;
+    min-width: 320px;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    line-height: 150%;
+    /* line-height: 150%;
+    letter-spacing: 1.25px; */
+}
+
+img, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-height: 100%;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+fieldset {
+    padding: 0;
+}
+
+iframe {
+    border: none;
+}
+
+.visually-hidden {
+position: fixed;
+transform: scale(0);
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+section, aside, footer {
+    padding: 50px 0;
+}
+
+header {
+    padding: 25px 0;
+}
+
+/* .heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 140%;
+} */
+/* 
+.btn-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+.hidden {
+    display: none;
+}
+/* 
+@media (max-width: 880px) {
+    section, aside, header, footer {
+        padding: 15px 0;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .btn-arrow {
+        width: 70px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    section, aside, header, footer {
+        padding: 25px 0;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .btn-arrow {
+        width: 50px;
+    }
+} */
