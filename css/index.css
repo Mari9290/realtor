@@ -1,4 +1,6 @@
 @import url(var.css);
+@import url(popup.css);
+@import url(call.css);
 
 
 @font-face {
@@ -31,6 +33,7 @@ box-sizing: inherit;
 
 body {
     background-color: var(--color-white, #FCFCFC);
+    font-family: Rubik;
     position: relative;
     overflow-x: hidden;
     min-width: 320px;
