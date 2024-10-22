@@ -1,0 +1,14 @@
+.nav__img {
+    width: 30px;
+}
+
+.nav__link {
+    color: var(--color-blue, #3884BF);
+    font-size: 18px;
+}
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

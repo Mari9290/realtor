@@ -1,0 +1,35 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+.header__wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__par {
+    font-size: 18px;
+    white-space: pre-line;
+    color: var(--color-grey, #5A7182);
+}
+
+@media (max-width: 800px) {
+    .header__par {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__par {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header__par {
+        font-size: 12px;
+    }
+}
+
+

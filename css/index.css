@@ -1,6 +1,10 @@
 @import url(var.css);
 @import url(popup.css);
+@import url(hamburger.css);
 @import url(call.css);
+@import url(header.css);
+@import url(nav.css);
+@import url(offer.css);
 
 
 @font-face {
@@ -45,8 +49,7 @@ body {
     -webkit-tap-highlight-color: transparent;
     font-size: 16px;
     line-height: 150%;
-    /* line-height: 150%;
-    letter-spacing: 1.25px; */
+    letter-spacing: 1.25px;
 }
 
 img, svg {
@@ -130,35 +133,31 @@ header {
 .hidden {
     display: none;
 }
-/* 
+
 @media (max-width: 880px) {
     section, aside, header, footer {
         padding: 15px 0;
     }
 
-    .heading {
+    /* .heading {
         font-size: 36px;
     }
 
     .btn-arrow {
         width: 70px;
-    }
+    } */
 }
 
 @media (max-width: 425px) {
     .container {
-        padding: 0 15px;
+        padding: 0 10px;
     }
 
-    section, aside, header, footer {
-        padding: 25px 0;
-    }
-
-    .heading {
+    /* .heading {
         font-size: 28px;
     }
 
     .btn-arrow {
         width: 50px;
-    }
-} */
+    } */
+}
