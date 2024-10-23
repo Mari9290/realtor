@@ -10,6 +10,7 @@
 
 .header__par {
     font-size: 18px;
+    font-weight: 700;
     white-space: pre-line;
     color: var(--color-grey, #5A7182);
 }

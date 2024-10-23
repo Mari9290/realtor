@@ -1,12 +1,14 @@
-.offer {
-}
 .offer__btn {
-    padding: 20px 150px;
+    padding: 10px 150px;
     background-color: var(--color-red, #EB917F);
-    font-size: 20px;
     color: var(--color-white, #FCFCFC);
     border-radius: 20px;
-    font-weight: 600;
+    font-family: Geologica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-align: center;
 }
 
 .offer__container {
@@ -23,18 +25,33 @@
 .offer__header {
     white-space: pre-line;
     color: var(--color-grey, #5A7182);
-    font-size: 35px;
+    font-family: Geologica;
+    font-size: 42px;
+    font-weight: 500;
     line-height: 45px;
-    letter-spacing: 1px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+}
+
+.offer__par {
+    font-family: Cormorant;
+    color: var(--color-grey, #5A7182);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
 }
 
 .offer__item {
     white-space: pre-line;
-    font-size: 14px;
     position: relative;
     padding-left: 35px;
-    line-height: normal;
+    font-family: Cormorant;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1em;
 }
 
 .offer__item::before {
@@ -101,7 +118,7 @@
     }
 
     .offer__btn {
-        padding: 10px 100px;
+        padding: 5px 100px;
         font-size: 14px;
     }
 }

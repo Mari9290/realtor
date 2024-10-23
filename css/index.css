@@ -1,3 +1,4 @@
+@import url(normalize.css);
 @import url(var.css);
 @import url(popup.css);
 @import url(hamburger.css);
@@ -5,21 +6,22 @@
 @import url(header.css);
 @import url(nav.css);
 @import url(offer.css);
-
+@import url(stages.css);
+@import url(question.css);
 
 @font-face {
-    font-family: Rubik;
-    src: local(Rubik-Regular), url(../fonts/Rubik-Regular.woff2) format("woff2");
-    src: url(../fonts/Rubik-Regular.woff) format("woff");
-    font-weight: 400;
+    font-family: Geologica;
+    src: local(Geologica-Medium), url(../fonts/Geologica-Medium.woff2) format("woff2");
+    src: url(../fonts/Geologica-Medium.woff) format("woff");
+    font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: Rubik;
-    src: local(Rubik-Medium), url(../fonts/Rubik-Medium.woff2) format("woff2");
-    src: url(../fonts/Rubik-Medium.woff) format("woff");
-    font-weight: 500;
+    font-family: Cormorant;
+    src: local(Cormorant-Regular), url(../fonts/Cormorant-Regular.woff2) format("woff2");
+    src: url(../fonts/Cormorant-Regular.woff) format("woff");
+    font-weight: 400;
     font-display: swap;
 }
 
@@ -37,7 +39,7 @@ box-sizing: inherit;
 
 body {
     background-color: var(--color-white, #FCFCFC);
-    font-family: Rubik;
+    font-family: Cormorant;
     position: relative;
     overflow-x: hidden;
     min-width: 320px;
@@ -117,12 +119,16 @@ header {
     padding: 25px 0;
 }
 
-/* .heading {
-    font-size: 40px;
-    font-weight: 700;
+.heading {
     margin-bottom: 40px;
-    line-height: 140%;
-} */
+    color: var(--color-grey, #5A7182);
+    font-family: Geologica;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
 /* 
 .btn-arrow {
     position: absolute;
@@ -139,13 +145,13 @@ header {
         padding: 15px 0;
     }
 
-    /* .heading {
-        font-size: 36px;
-    }
+    .heading {
+        font-size: 25px;
+    } 
 
     .btn-arrow {
         width: 70px;
-    } */
+    }
 }
 
 @media (max-width: 425px) {
@@ -153,11 +159,11 @@ header {
         padding: 0 10px;
     }
 
-    /* .heading {
-        font-size: 28px;
+    .heading {
+        font-size: 20px;
     }
 
     .btn-arrow {
         width: 50px;
-    } */
+    }
 }
