@@ -5,14 +5,11 @@
 .nav__link {
     color: var(--color-blue, #3884BF);
     font-size: 18px;
+    font-family: Geologica;
 }
 .nav__list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-}
-
-.nav__item {
-    font-family: Geologica;
 }

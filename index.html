@@ -6,15 +6,16 @@
     <title>Агент по продаже недвижимости Паромова Ольга</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/">
-    <link rel="manifest" href="img/favicon/">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest"/>
     <meta property="og:title" content="Агент по продаже недвижимости Паромова Ольга">
     <meta property="og:site_name" content="">
     <meta property="og:url" content="">
     <meta property="og:description" content="">
-    <meta property="og:image" content="img/">
+    <meta property="og:image" content="img/offer/olgaparomova.png">
 </head>
 <body>
     <header class="header">
@@ -56,7 +57,11 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">
+                        <a 
+                            href="https://wa.me/+79040355326" 
+                            target="_blank"
+                            class="nav__link"
+                        >
                             <img class="nav__img" src="img/nav/wa.svg">
                         </a>
                     </li>
@@ -132,35 +137,37 @@
 
         <section class="questions">
             <div class="questions__container container">
-                <h2 class="heading">Часто задаваемые вопросы</h2>
-                <ul class="questions__list">
-                    <li class="questions__item">
-                        <h4 class="questions__hat">В чем работа риелтора?</h4>
-                        <p class="question__par">
-                            Я сопровождаю и консультирую на каждом этапе сделки, присутствую в банке на расчётах, при подписании всех документов и сдачи в МФЦ. На протяжении всего процесса у Вас будет мой номер телефона с ссылкой на социальные сети, поэтому Вы сможете получить ответы на любые вопросы по квартире.
-                        </p>
-                    </li>
-                    <li class="questions__item">
-                        <h4 class="questions__hat">Будет ли сделка безопасной?</h4>
-                        <p class="question__par">
-                            Я проверяю документы на квартиру, историю владения, а также информацию о собственниках. Делаю всё, чтобы моим клиентам были подобраны юридически безопасные объекты. Все существенные риски оговариваю с клиентами перед сделкой.
-                        </p>
-                    </li>
-                    <li class="questions__item">
-                        <h4 class="questions__hat">Сколько времени будет потрачено на сделку?</h4>
-                        <p class="question__par">
-                            Я ценю Ваше время и стараюсь проводить несколько просмотров в один день, чтобы моим клиентам не нужно было выезжать на просмотры слишком часто. При необходимости могу провести онлайн-показ квартиры. Подготовка к сделке обычно занимает до 7 дней при полном комплекте документов.
-                        </p>
-                    </li>
-                    <li class="questions__item">
-                        <h4 class="questions__hat">
-                            Одобрят ли ипотеку?
-                        </h4>
-                        <p class="questions__par">
-                            Если Вам нужен ипотечный кредит, я подбираю подходящую ипотечную программу: банки сами предложат Вам свои условия и останется выбрать выгодный вариант. Посещать банк нужно будет только один раз, на сделке. Вся работа с клиентом происходит удалённо. Помогаю с оценкой и страховкой объекта.
-                        </p>
-                    </li>
-                </ul>
+                <div class="questions__wrap">
+                    <h2 class="heading questions__heading">Часто задаваемые вопросы</h2>
+                    <ul class="questions__list">
+                        <li class="questions__item">
+                            <h4 class="questions__hat">В чем работа риелтора?</h4>
+                            <p class="questions__par">
+                                Я сопровождаю и консультирую на каждом этапе сделки, присутствую в банке на расчётах, при подписании всех документов и сдачи в МФЦ. На протяжении всего процесса у Вас будет мой номер телефона с ссылкой на социальные сети, поэтому Вы сможете получить ответы на любые вопросы по квартире.
+                            </p>
+                        </li>
+                        <li class="questions__item">
+                            <h4 class="questions__hat">Будет ли сделка безопасной?</h4>
+                            <p class="questions__par">
+                                Я проверяю документы на квартиру, историю владения, а также информацию о собственниках. Делаю всё, чтобы моим клиентам были подобраны юридически безопасные объекты. Все существенные риски оговариваю с клиентами перед сделкой.
+                            </p>
+                        </li>
+                        <li class="questions__item">
+                            <h4 class="questions__hat">Сколько времени будет потрачено на сделку?</h4>
+                            <p class="questions__par">
+                                Я ценю Ваше время и стараюсь проводить несколько просмотров в один день, чтобы моим клиентам не нужно было выезжать на просмотры слишком часто. При необходимости могу провести онлайн-показ квартиры. Подготовка к сделке обычно занимает до 7 дней при полном комплекте документов.
+                            </p>
+                        </li>
+                        <li class="questions__item">
+                            <h4 class="questions__hat">
+                                Одобрят ли ипотеку?
+                            </h4>
+                            <p class="questions__par">
+                                Если Вам нужен ипотечный кредит, я подбираю подходящую ипотечную программу: банки сами предложат Вам свои условия и останется выбрать выгодный вариант. Посещать банк нужно будет только один раз, на сделке. Вся работа с клиентом происходит удалённо. Помогаю с оценкой и страховкой объекта.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -171,11 +178,15 @@
                         возникший вопрос.</h2>
                 </div>
 
-                <div class="progress__wrap">
-                    <p class="progress__text">400+</p>
-                    <p class="progress__par">успешных сделок</p>
-                    <p class="progress__text">300+</p>
-                    <p class="progress__par">квартир сданных в аренду</p>
+                <div class="progress__wrap progress__wrap-block">
+                    <div>
+                        <p class="progress__text">400+</p>
+                        <p class="progress__par">успешных сделок</p>
+                    </div>
+                    <div>
+                        <p class="progress__text">300+</p>
+                        <p class="progress__par">квартир сданных в аренду</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -185,8 +196,8 @@
                 <h2 class="heading">Отзывы клиентов</h2>
                 <ul class="reviews__list">
                     <li class="reviews__item">
-                        <h4 class="reviews__had">
-                            Валентина Павлова
+                        <h4 class="reviews__had">Валентина 
+                            Павлова
                         </h4>
 
                         <p class="reviews__par">
@@ -195,8 +206,8 @@
                     </li>
 
                     <li class="reviews__item">
-                        <h4 class="reviews__had">
-                            Лариса Кузнецова
+                        <h4 class="reviews__had">Лариса 
+                            Кузнецова
                         </h4>
 
                         <p class="reviews__par">
@@ -205,8 +216,8 @@
                     </li>
 
                     <li class="reviews__item">
-                        <h4 class="reviews__had">
-                            Мария Копышова
+                        <h4 class="reviews__had">Мария 
+                            Копышова
                         </h4>
 
                         <p class="reviews__par">
@@ -215,17 +226,19 @@
                     </li>
                 </ul>
 
-                <p class="reviews__text">
-                    Еще больше отзывов вы можете прочитать в моем сообществе ВК
-                </p>
+                <div class="reviews__wrapper">
+                    <p class="reviews__text">
+                        Еще больше отзывов вы можете прочитать в моем сообществе ВК
+                    </p>
 
-                <a 
-                class="call__social call__social-vk"
-                href="https://vk.com/olga_paromova_vladimircity"
-                target="_blank"
-                >
-                    ВКонтакте
-                </a>
+                    <a 
+                    class="reviews__btn call__social call__social-vk"
+                    href="https://vk.com/olga_paromova_vladimircity"
+                    target="_blank"
+                    >
+                        ВКонтакте
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -274,28 +287,49 @@
         <div class="footer__container container">
             <ul class="footer__list">
                 <li class="footer__item">
-                    <a href="#" class="footer__link">
-                        <img class="footer__img" src="#">
+                    <a 
+                        href="tg://resolve?domain=OlgaParomovaVladimircity"
+                        target="_blank"
+                        class="footer__link"
+                    >
+                        <img class="footer__img" src="img/nav/tg.svg">
                     </a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">
-                        <img class="footer__img" src="#">
+                    <a 
+                        href="https://vk.com/olga_paromova_vladimircity"
+                        target="_blank"
+                        class="footer__link"
+                    >
+                        <img class="footer__img" src="img/nav/vk.svg">
                     </a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">
-                        <img class="footer__img" src="#">
+                    <a 
+                        href="https://wa.me/+79040355326" 
+                        target="_blank"
+                        class="footer__link"
+                    >
+                        <img class="footer__img" src="img/nav/wa.svg">
                     </a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">
-                        <img class="footer__img" src="#">
+                    <a 
+                        href="viber://add?number=79040355326" 
+                        class="footer__link"
+                        target="_blank"
+                    >
+                        <img class="footer__img" src="img/nav/viber.svg">
                     </a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">
-                        <img class="footer__img" src="#">
+                    <a 
+                        href="tel:+79040355326"
+                        target="_blank"
+                        class="footer__link"
+                    >
+                        +7(904)035-53-26
+                        <!-- <img class="footer__img" src="#"> -->
                     </a>
                 </li>
 

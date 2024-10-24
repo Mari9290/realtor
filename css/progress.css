@@ -1,0 +1,95 @@
+.progress {
+    background-image: url(../img/progress/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.progress__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.progress__head {
+    font-family: Geologica;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color: var(--color-white, #FCFCFC);
+}
+
+.progress__par {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.progress__text {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.progress__wrap-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    width: 430px;
+    height: 470px;
+    border-radius: 20px;
+    border: 1px solid var(--color-grey, #5A7182);
+    background-color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .progress__container {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 780px) {
+    .progress__head {
+        font-size: 20px;
+    }
+
+    .progress__text {
+        font-size: 40px;
+    }
+
+    .progress__par {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .progress__container {
+        gap: 5px;
+    }
+
+    .progress__wrap {
+        width: 50%;
+    }
+
+    .progress__head {
+        font-size: 18px;
+    }
+
+    .progress__text {
+        font-size: 30px;
+    }
+
+    .progress__par {
+        font-size: 16px;
+    }
+
+    .progress__wrap-block {
+        padding: 20px;
+        width: 50%;
+        height: 40vh;
+    }
+}

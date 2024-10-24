@@ -8,6 +8,9 @@
 @import url(offer.css);
 @import url(stages.css);
 @import url(question.css);
+@import url(progress.css);
+@import url(reviews.css);
+@import url(footer.css);
 
 @font-face {
     font-family: Geologica;
@@ -39,6 +42,7 @@ box-sizing: inherit;
 
 body {
     background-color: var(--color-white, #FCFCFC);
+    color: var(--color-grey, #5A7182);
     font-family: Cormorant;
     position: relative;
     overflow-x: hidden;
@@ -142,7 +146,7 @@ header {
 
 @media (max-width: 880px) {
     section, aside, header, footer {
-        padding: 15px 0;
+        padding: 20px 0;
     }
 
     .heading {
@@ -156,7 +160,7 @@ header {
 
 @media (max-width: 425px) {
     .container {
-        padding: 0 10px;
+        padding: 0 15px;
     }
 
     .heading {

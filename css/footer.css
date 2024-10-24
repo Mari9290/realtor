@@ -1,0 +1,16 @@
+.footer__img {
+    width: 30px;
+}
+
+.footer__link {
+    font-family: Geologica;
+    color: var(--color-blue, #3884BF);
+    font-size: 14px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
