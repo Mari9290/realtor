@@ -133,7 +133,7 @@ header {
     letter-spacing: 0.1em;
     text-align: center;
 }
-
+/* 
 .btn-flare {
     position: absolute;
     top: 0;
@@ -152,7 +152,7 @@ header {
     100% {
         left: 150%;
     }
-}
+} */
 
 .hidden {
     display: none;
