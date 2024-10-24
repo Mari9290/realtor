@@ -104,7 +104,12 @@
 
     .offer__header {
         font-size: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+    }
+
+    .offer__par {
+        font-size: 18px;
+        font-weight: 600;
     }
 }
 
