@@ -49,6 +49,8 @@
 
 .stages__list {
     display: grid;
+    list-style-type: decimal;
+    list-style-position: inside;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px 130px;
     grid-auto-rows: minmax(125px, auto);

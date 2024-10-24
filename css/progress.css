@@ -55,6 +55,93 @@
     background-color: #fff;
 }
 
+
+
+.count::after {
+    content: counter(count);
+    animation: counter 1.5s linear 1 forwards;
+    counter-reset: count 0;
+}
+
+@keyframes counter {
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 50;
+    }
+    20% {
+        counter-increment: count 99;
+    }
+    30% {
+        counter-increment: count 120;
+    }
+    40% {
+        counter-increment: count 130;
+    }
+    50% {
+        counter-increment: count 140;
+    }
+    60% {
+        counter-increment: count 150;
+    }
+    70% {
+        counter-increment: count 199;
+    }
+    80% {
+        counter-increment: count 200;
+    }
+    90% {
+        counter-increment: count 250;
+    }
+    100% {
+        counter-increment: count 300;
+    }
+}
+
+
+.count1::after {
+    content: counter(count);
+    animation: countertwo 1.5s linear 1 forwards;
+    counter-reset: count 0;
+}
+
+@keyframes countertwo {
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 150;
+    }
+    20% {
+        counter-increment: count 180;
+    }
+    30% {
+        counter-increment: count 200;
+    }
+    40% {
+        counter-increment: count 230;
+    }
+    50% {
+        counter-increment: count 240;
+    }
+    60% {
+        counter-increment: count 250;
+    }
+    70% {
+        counter-increment: count 399;
+    }
+    80% {
+        counter-increment: count 400;
+    }
+    90% {
+        counter-increment: count 550;
+    }
+    100% {
+        counter-increment: count 600;
+    }
+}
+
 @media (max-width: 1000px) {
     .progress__container {
         gap: 20px;
