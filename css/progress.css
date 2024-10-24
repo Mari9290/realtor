@@ -27,10 +27,20 @@
     line-height: normal;
 }
 
+.progress__wrapper {
+    margin-bottom: 25px;
+}
+
 .progress__text {
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 25px;
+    display: inline;
+}
+
+.progress__plus {
+    font-size: 50px;
+    font-weight: 700;
+    display: inline;
 }
 
 .progress__wrap-block {

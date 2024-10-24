@@ -22,7 +22,7 @@
 }
 
 .call__social-vk {
-    background-color: #1a71ff;
+    background-color: var(--color-blue, #3884BF);
 }
 
 .call__text {

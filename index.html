@@ -180,11 +180,17 @@
 
                 <div class="progress__wrap progress__wrap-block">
                     <div>
-                        <p class="progress__text">400+</p>
+                        <div class="progress__wrapper">
+                            <p data-target="400" class="progress__text count">0</p>
+                            <span class="progress__plus">+</span>
+                        </div>
                         <p class="progress__par">успешных сделок</p>
                     </div>
                     <div>
-                        <p class="progress__text">300+</p>
+                        <div class="progress__wrapper">
+                            <p data-target="600" class="progress__text square count">0</p>
+                            <span class="progress__plus">+</span>
+                        </div>
                         <p class="progress__par">квартир сданных в аренду</p>
                     </div>
                 </div>
@@ -342,8 +348,10 @@
         </div>
     </footer>
 
+    <script src="js/viweport.js"></script>
     <script src="js/copyrigt.js"></script>
     <script src="js/humburger.js"></script>
     <script src="js/popup.js"></script>
+    <script src="js/counter.js"></script>
 </body>
 </html>
