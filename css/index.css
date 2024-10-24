@@ -133,12 +133,26 @@ header {
     letter-spacing: 0.1em;
     text-align: center;
 }
-/* 
-.btn-arrow {
+
+.btn-flare {
     position: absolute;
-    top: 10px;
-    left: 10px;
-} */
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flare 2s infinite linear;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    left: -150%;
+}
+
+@keyframes flare {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
 
 .hidden {
     display: none;
@@ -153,9 +167,6 @@ header {
         font-size: 25px;
     } 
 
-    .btn-arrow {
-        width: 70px;
-    }
 }
 
 @media (max-width: 425px) {
@@ -167,7 +178,4 @@ header {
         font-size: 20px;
     }
 
-    .btn-arrow {
-        width: 50px;
-    }
 }

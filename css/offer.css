@@ -9,6 +9,16 @@
     line-height: 45px;
     letter-spacing: 0.1em;
     text-align: center;
+    box-shadow: 0px 10px 10px 0px rgba(180, 27, 23, 0.30);
+}
+
+.offer__btn:hover {
+    box-shadow: 0px 15px 15px 0px rgba(180, 27, 23, 0.30);
+    color: #fff;
+}
+
+.offer__btn:active {
+    background: linear-gradient(91deg, #b75355 0.34%, #b06465 112.11%);
 }
 
 .offer__container {

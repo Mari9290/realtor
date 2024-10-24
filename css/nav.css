@@ -7,6 +7,11 @@
     font-size: 18px;
     font-family: Geologica;
 }
+
+.nav__item:hover {
+    transform: scale(1.15);
+}
+
 .nav__list {
     display: flex;
     justify-content: center;
